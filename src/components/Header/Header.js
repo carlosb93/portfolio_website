@@ -11,7 +11,7 @@ const Header = () =>  (
     <Div1>
       <Link href="/">
         <a style={{ display: 'flex', alignItems: 'center', color:"white" }}>
-          <BsLightningChargeFill size="3rem" /> <span>Portafólio</span>
+          <BsLightningChargeFill size="3rem" /> <span>Portafolio</span>
         </a>
       </Link>
     </Div1>

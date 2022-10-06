@@ -9,8 +9,8 @@ const Technologies = () =>  (
     <SectionDivider divider />
     <SectionTitle>Tecnologías</SectionTitle>
     <SectionText>
-    He trabajado con una variedad de tecnologías en el mundo del desarrollo web.
-      Desde BackEnd a FrontEnd, utilizando herramientas de trabajo modernas como Git y metodologias de desarrollo ágil
+    He trabajado con una variedad de tecnologías en el mundo del desarrollo web,
+      desde BackEnd a FrontEnd, utilizando herramientas de trabajo modernas como Git y metodologías de desarrollo ágil
     </SectionText>
     <List>
       <ListItem>

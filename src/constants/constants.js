@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: 'VDEV',
-    description: "Utilizando PHP(Laravel) PostgreSQL y otras tecnologías se creo un sistema automatizado de gestión de efectivo entre diferentes entidades bancarias ",
+    description: "Utilizando PHP(Laravel) PostgreSQL y otras tecnologías se creó un sistema automatizado de gestión de efectivo entre diferentes entidades bancarias ",
       image: '/images/1.png',
       tags: ['PostgreSQL', 'Laravel', 'PHP', 'JavaScript'],
     source: 'https://www.bc.gob.cu//storage/revistas-bcc/July2019/PpLbCrsWLI5mAaFGA2TP.pdf',
