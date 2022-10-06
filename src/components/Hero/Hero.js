@@ -3,13 +3,13 @@ import React from 'react';
 import { Section, SectionText, SectionTitle, Capsule, CapsuleText } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
-
+import Link from "next/link";
 
 const Hero = (props) => {
 
   const handleClick = () => {
     const url= 'https://github.com/carlosb93'
-    window.location.href = url;
+    alert(url);
   }
   
   return (
@@ -23,7 +23,10 @@ const Hero = (props) => {
         <SectionText>
        Soy un Ingeniero Eléctrico & Programador de 29 años
         </SectionText>
-        <Button onClick={handleClick}>Learn More</Button>
+        <Link href="https://github.com/carlosb93">
+          <Button >Ver más</Button>
+          </Link>
+        
       </LeftSection>
     </Section>
   </>

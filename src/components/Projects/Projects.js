@@ -8,7 +8,7 @@ import { projects } from '../../constants/constants';
 const Projects = () => {
 
   const handleClick = (url) => {
-    window.location.href = url;
+   alert(url)
   }
 
 
