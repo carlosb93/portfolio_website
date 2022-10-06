@@ -4,8 +4,15 @@ import { Section, SectionText, SectionTitle, Capsule, CapsuleText } from '../../
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
-const url = 'https://charlie-developer.herokuapp.com/#tech';
-const Hero = (props) => (
+
+const Hero = (props) => {
+
+  const handleClick = () => {
+    const url= 'https://charlie-developer.herokuapp.com/#tech'
+    window.location.href = url;
+  }
+  
+  return (
   <>
     <Section row nopadding>
       <LeftSection>
@@ -16,10 +23,11 @@ const Hero = (props) => (
         <SectionText>
        Soy un Ingeniero Eléctrico & Programador de 29 años
         </SectionText>
-        <Button onClick={() => { window.location.href = url;}}>Learn More</Button>
+        <Button onClick={handleClick}>Learn More</Button>
       </LeftSection>
     </Section>
   </>
-);
+  );
+};
 
 export default Hero;
