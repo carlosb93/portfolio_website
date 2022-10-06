@@ -8,7 +8,7 @@ import { LeftSection } from './HeroStyles';
 const Hero = (props) => {
 
   const handleClick = () => {
-    const url= 'https://charlie-developer.herokuapp.com/#tech'
+    const url= 'https://github.com/carlosb93'
     window.location.href = url;
   }
   

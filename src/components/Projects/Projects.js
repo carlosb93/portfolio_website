@@ -5,7 +5,15 @@ import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalCompon
 import Button from '../../styles/GlobalComponents/Button';
 import { projects } from '../../constants/constants';
 
-const Projects = () => (
+const Projects = () => {
+
+  const handleClick = (url) => {
+    window.location.href = url;
+  }
+
+
+  return(
+
   <Section nopadding id="projects">
     <SectionDivider />
     <SectionTitle main>Proyectos</SectionTitle>
@@ -28,7 +36,7 @@ const Projects = () => (
               </TagList>
             </div>
             <UtilityList>
-              <Button href={p.source}>Source</Button>
+              <Button OnClick={handleClick(p.source)}>Source</Button>
             </UtilityList>
           </BlogCard>
         );
@@ -36,5 +44,6 @@ const Projects = () => (
     </GridContainer>
   </Section>
 );
+    };
 
 export default Projects;
