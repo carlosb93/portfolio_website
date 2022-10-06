@@ -4,6 +4,7 @@ import { Section, SectionText, SectionTitle, Capsule, CapsuleText } from '../../
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
+const url = 'https://charlie-developer.herokuapp.com/#tech';
 const Hero = (props) => (
   <>
     <Section row nopadding>
@@ -15,7 +16,7 @@ const Hero = (props) => (
         <SectionText>
        Soy un Ingeniero Eléctrico & Programador de 29 años
         </SectionText>
-        <Button onClick={props.handleClick}>Learn More</Button>
+        <Button onClick={() => { window.location.href = url;}}>Learn More</Button>
       </LeftSection>
     </Section>
   </>
