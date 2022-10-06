@@ -9,7 +9,7 @@ const Hero = (props) => {
 
   const handleClick = () => {
     const url= 'https://github.com/carlosb93'
-    alert(url);
+    console.log(url);
   }
   
   return (

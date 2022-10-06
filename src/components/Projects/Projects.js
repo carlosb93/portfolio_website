@@ -8,7 +8,7 @@ import { projects } from '../../constants/constants';
 const Projects = () => {
 
   const handleClick = (url) => {
-   alert(url)
+   console.log(url)
   }
 
 
