@@ -4,6 +4,8 @@ import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag,
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
 import { projects } from '../../constants/constants';
+import Link from "next/link";
+
 
 const Projects = () => {
 
@@ -36,7 +38,9 @@ const Projects = () => {
               </TagList>
             </div>
             <UtilityList>
+            <Link href={p.source}>
               <Button OnClick={handleClick(p.source)}>Source</Button>
+              </Link>
             </UtilityList>
           </BlogCard>
         );
